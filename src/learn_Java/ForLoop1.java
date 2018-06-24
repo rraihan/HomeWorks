@@ -4,16 +4,18 @@ public class ForLoop1 {
 
 public static void main(String[] args) {
 		// TODO Auto-generated method stub
-			int counter;
-				counter = 10000000;
-					int counter2;
-					 counter2 = 50;
-					for (counter = 0; counter <= 10; counter++)
-		System.out.println("The counter result is = " + counter + "\n");
-				
+			int i;
+			int multiply;
+			i = 1000000000;
+		    
+		    
+					for (i = 1; i <= 10; i++) { 
+						multiply = i*i;
+		System.out.println(i+ " is equal to  = " + i 
+				+ ",and " + i +" times "+ i+ " is equal to = " +multiply);
+		
+		}
 	
-	for (counter2 = 100; counter2 >= 50; counter2 = counter2 - 10)
-System.out.println("the counter is = " + counter2);
 
 	}
 

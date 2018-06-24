@@ -1,6 +1,6 @@
 package learn_Java;
 
-public class StudentsScores {
+public class HomeWorks1 {
 
 	public static void main(String[] args) {
 int result =661;
